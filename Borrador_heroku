@@ -1,0 +1,10 @@
+Receta - heroku
+  bundle install --without production
+  heroku login
+  heroku create 
+  git add . 
+  git commit -m "commit x" 
+  git push heroku master
+  
+First app url
+  https://still-inlet-93642.herokuapp.com/one
